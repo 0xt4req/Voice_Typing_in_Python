@@ -2,6 +2,18 @@ import datetime
 import speech_recognition as sr
 import pyttsx3, sys
 
+print("############################################################")
+print("#    Code For       : Voice Typing In Python               #")
+print("#    Code Language  : Python                               #")
+print("#    Code Author    : Md. Tareq Ahamed Jony                #")
+print("#    Member OF      : Knight Squad                         #")
+print("#    Position       : Learner (Knight_VIII)                #")
+print("#    Team           : Knight Squad                         #")
+print("#    Team Leader    : Noman Prodhan                        #")
+print("############################################################")
+print("\n")
+
+
 def speak():
     robot = pyttsx3.init()
     robot.say("Welcome to voice typing. You will say & I will recognize it & save it to a file name activity.txt. So, let's get started")
