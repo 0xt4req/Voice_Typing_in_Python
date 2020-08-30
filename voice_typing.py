@@ -1,3 +1,5 @@
+# Modules to be used
+
 import datetime
 import speech_recognition as sr
 import pyttsx3, sys
@@ -13,6 +15,7 @@ print("#    Team Leader    : Noman Prodhan                        #")
 print("############################################################")
 print("\n")
 
+# Initializing the voice engine
 
 def speak():
     robot = pyttsx3.init()
